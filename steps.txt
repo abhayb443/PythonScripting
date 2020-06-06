@@ -1,0 +1,7 @@
+1. login to github
+2. add public key to the github repo
+3. use the below command to generate key
+   ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+4. paste the public key from setting/add ssh
+5. git is ready for use
+
