@@ -120,7 +120,7 @@ print(L13.min())
 print(L13.max())
 print(L13.sum())
 
-Sum of matrix 0
+# Sum of matrix 0
 print()
 L14 = np.array([[1, 2], [3, 4], [5, 6]])
 print(L14.sum(axis=0))                          # Vertical Addition
@@ -152,7 +152,7 @@ print(np.linspace(1, 5, 10))
 print()
 print(np.random.random((2,3)))
 print()
-print(L18.reshape((3,2)))
+print(L18.reshape((3,2)))           # Reshape of array with invalid size
 print()
 L19 = np.zeros((2,3))
 print(L19.reshape((2,3)))
@@ -174,3 +174,13 @@ print(L21)
 h = np.zeros((3, 1))
 g = np.zeros((3, 1))
 print(np.vstack((g, h)))
+print()
+print(np.hstack((g, h)))
+
+i = np.zeros((3, 3))
+print()
+print(i)
+print()
+print(np.hsplit(i, 1))
+print()
+print(np.vsplit(i, 3))
